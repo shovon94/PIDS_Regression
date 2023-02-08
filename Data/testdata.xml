@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<SeleniumTestData>
+
+    <url>http://192.168.4.94:8090/ntmc_admin_portal/login/</url>
+    <firstname>MITHUN</firstname>
+    <lastname>ROY</lastname>
+    <email>m.r@gmail.com</email>
+    <username>mroy001</username>
+    <amount>10000</amount>
+
+
+</SeleniumTestData>

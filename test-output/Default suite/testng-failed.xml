@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <parameter name="Role_Management_Page_Tile" value="User Management :: Prison Inmate Admin Portal"/>
+  <parameter name="Create_User_Mobile" value="01711084451"/>
+  <parameter name="Prisoner_No_AfisClear" value="8/11/21/001"/>
+  <parameter name="Search_Page_Title" value="Search :: Prison Inmate Admin Portal"/>
+  <parameter name="User_Management_Page_Title" value="User Management :: Prison Inmate Admin Portal"/>
+  <parameter name="Gender" value="Male"/>
+  <parameter name="Update_User_Mobile" value="01711084451"/>
+  <parameter name="PrisonerCategory" value="Under trial"/>
+  <parameter name="Create_User_Password" value="985620"/>
+  <parameter name="Update_Lookup_Value" value="Test90003"/>
+  <parameter name="Login_Page_Tile" value="Login :: Prison Inmate Admin Portal"/>
+  <parameter name="Update_Prison_Location" value="Rajshahi3"/>
+  <parameter name="Menu_Create_User" value="Create User"/>
+  <parameter name="Create_Prison_Code" value="1000991"/>
+  <parameter name="MotherName" value="(English)"/>
+  <parameter name="Create_Prison_eMail" value="test@tigerit123.com"/>
+  <parameter name="Update_Prison_eMail" value="test@tigerit1234.com"/>
+  <parameter name="Jail" value="Bogra - District Jail"/>
+  <parameter name="Status_Inactive" value="Inactive"/>
+  <parameter name="Lookup_Type" value="TEST_LOOKUP"/>
+  <parameter name="Update_Prison_Name" value="Test_Prison_Rano1"/>
+  <parameter name="Create_User_Role" value="Jail Admin"/>
+  <parameter name="Status_Active" value="Active"/>
+  <parameter name="Create_Prison_Location" value="Rajshahi"/>
+  <parameter name="Create_User_UserName" value="Test_Rano"/>
+  <parameter name="Create_Lookup_Code" value="90002"/>
+  <parameter name="Login_Password" value="123456"/>
+  <parameter name="Login_Welcome_Message" value="Welcome: Automation Admin"/>
+  <parameter name="Login_User" value="central_admin_auto"/>
+  <parameter name="Create_User_Name" value="Sanaul Islam"/>
+  <parameter name="Adjudication_Page_Title" value="Adjudication :: Prison Inmate Admin Portal"/>
+  <parameter name="Login_Breadcrumb" value="Dashboard"/>
+  <parameter name="Update_Role_DisplayName" value="Test Admin Rano1"/>
+  <parameter name="Create_Lookup_Value" value="Test90002"/>
+  <parameter name="Menu_AFIS_Adjudication" value="AFIS Adjudication"/>
+  <parameter name="PrisonerName" value="Mosan"/>
+  <parameter name="URL" value="http://192.168.1.138:9009/ntmc_admin_portal/login/"/>
+  <parameter name="CaseNo" value="06072022-003"/>
+  <parameter name="Status_Pending" value="Pending"/>
+  <parameter name="Create_Role_Code" value="Test_Admin_Rano"/>
+  <parameter name="Prisoner_No_AdvanceSearch" value="1601/22"/>
+  <parameter name="Update_User_Role" value="Jail Operator"/>
+  <parameter name="Setup_Page_Title" value="Setup :: Prison Inmate Admin Portal"/>
+  <parameter name="MobileNo" value="01758135197"/>
+  <parameter name="Prisoner_No_AfisMacthFound" value="2211/2"/>
+  <parameter name="Menu_Role_Management" value="Role Management"/>
+  <parameter name="Update_User_Name" value="Sanaul Rano"/>
+  <parameter name="NID" value="2858546860"/>
+  <parameter name="Menu_Search" value="Search"/>
+  <parameter name="PrisonerID" value="6072022-002"/>
+  <parameter name="Create_Prison_Name" value="Test_Prison_Rano"/>
+  <parameter name="Menu_Setup" value="Setup"/>
+  <parameter name="Create_Role_DisplayName" value="Test Admin Rano"/>
+  <parameter name="Menu_User_Assignment" value="User Assignment"/>
+  <parameter name="Menu_User_Management" value="User Management"/>
+  <parameter name="FatherName" value="test. name (test)"/>
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="regression.PidsRegressionSuite">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="searchUser"/>
+          <include name="assignUser"/>
+          <include name="openRoleManagement"/>
+          <include name="seachByNID"/>
+          <include name="loginPIDS" invocation-numbers="0"/>
+          <include name="launchUserAssignment"/>
+          <include name="searchPrison"/>
+          <include name="openAFIS"/>
+          <include name="createUser"/>
+          <include name="seachByPrisonerID"/>
+          <include name="openSearch"/>
+          <include name="createPrison"/>
+          <include name="matchVerifiedAFIS"/>
+          <include name="capture"/>
+          <include name="updateUser"/>
+          <include name="matchClearAFIS"/>
+          <include name="updatehRole"/>
+          <include name="createRole"/>
+          <include name="seachByCaseNo"/>
+          <include name="searchRole"/>
+          <include name="updateLookup"/>
+          <include name="viewFingerPrints"/>
+          <include name="openUserManagement"/>
+          <include name="createLookup"/>
+          <include name="updatePrison"/>
+          <include name="seachByPrisonerName"/>
+          <include name="searchLookup"/>
+          <include name="Quit"/>
+          <include name="advancedSearch"/>
+          <include name="clearCache"/>
+        </methods>
+      </class> <!-- regression.PidsRegressionSuite -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
